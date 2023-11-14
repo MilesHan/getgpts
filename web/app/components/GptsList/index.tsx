@@ -22,7 +22,7 @@ export default ({ gpts, loading }: Props) => {
                     <div className="mb-4 flex flex-row">
                       <LazyLoadImage
                         src={item.avatar_url}
-                        alt=""
+                        alt={item.description}
                         className="mr-4 inline-block h-16 w-16 object-cover rounded-full"
                       />
                       <div className="flex flex-col">
@@ -41,7 +41,7 @@ export default ({ gpts, loading }: Props) => {
             })}
           </div>
         ) : (
-          <div className="mx-auto text-center">Loading data...</div>
+          <div className="mx-auto text-center">Loading...</div>
         )}
       </div>
     </section>

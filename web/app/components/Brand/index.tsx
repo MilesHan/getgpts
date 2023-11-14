@@ -10,11 +10,11 @@ export default ({ count }: Props) => {
       <div className="mx-auto w-full max-w-7xl px-5 py-2 md:px-10 pt-8 md:pt-24 lg:pt-32">
         <div className="mx-auto mb-0 w-full max-w-6xl text-center">
           <h2 className="mb-4 text-3xl font-bold md:text-7xl">
-            Third-party GPTs store
-            <p className="my-8 text:md md:text-4xl">
+            Collection of Useful GPTs
+            {/* <p className="my-8 text:md md:text-4xl">
               <span className="text-[#2752f4]">{count}</span> fantastic GPTs
               stored
-            </p>
+            </p> */}
           </h2>
         </div>
       </div>

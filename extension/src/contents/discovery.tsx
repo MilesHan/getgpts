@@ -61,7 +61,7 @@ export default () => {
               <div className="flex-1"></div>
               <a
                 className="text-[#324ffe]"
-                href="https://gpts.works"
+                href="https://getgpts.xyz"
                 target="_blank">
                 View more 👉
               </a>

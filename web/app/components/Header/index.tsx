@@ -17,11 +17,11 @@ export default () => {
               "url('https://assets.website-files.com/63904f663019b0d8edf8d57c/6390526ac2a607693620c97b_Rectangle%2010.svg')",
           }}
         >
-          GPTs Works
+          GetGPTs
         </a>
         <div className="flex-1">
           <ul className="hidden md:flex float-right text-lg text-slate-700 mr-4 items-center">
-            <li className="mx-4">
+            {/* <li className="mx-4">
               <a
                 href="/extension"
                 target="_self"
@@ -33,8 +33,8 @@ export default () => {
               >
                 Extension
               </a>
-            </li>
-            <li className="mx-4">
+            </li> */}
+            {/* <li className="mx-4">
               <a
                 href="https://chat.openai.com/g/g-EBKM6RsBl-gpts-works"
                 target="_blank"
@@ -42,10 +42,10 @@ export default () => {
               >
                 GPTs
               </a>
-            </li>
+            </li> */}
             <li className="mx-4">
               <a
-                href="https://github.com/all-in-aigc/gpts-works"
+                href="https://github.com/MilesHan/gpts"
                 target="_blank"
                 className="hover:text-[#2752f4]"
               >
@@ -54,7 +54,7 @@ export default () => {
             </li>
             <li className="mx-4">
               <a
-                href="https://x.com/idoubicc"
+                href="https://twitter.com/ignatius2023"
                 target="_blank"
                 className="hover:text-[#2752f4]"
               >
@@ -63,7 +63,7 @@ export default () => {
             </li>
           </ul>
         </div>
-        <a href="https://www.buymeacoffee.com/idoubi" target="_blank">
+        <a href="https://www.buymeacoffee.com/darwin" target="_blank">
           <svg
             width="27"
             height="39"

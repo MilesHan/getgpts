@@ -2,7 +2,7 @@ import type { Gpts } from "../types/gpts"
 
 export const getGpts = async (): Promise<Gpts[]> => {
   try {
-    const uri = "https://gpts.works/api/gpts?from=extension"
+    const uri = "https://getgpts.xyz/api/gpts?from=extension"
     const resp = await fetch(uri)
     if (resp.ok) {
       const json = await resp.json()

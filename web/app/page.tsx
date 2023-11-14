@@ -16,7 +16,7 @@ export default () => {
   const fetchGpts = async () => {
     const params = {
       last_id: 0,
-      limit: 100,
+      limit: 30,
     };
 
     setLoading(true);
@@ -45,7 +45,7 @@ export default () => {
   return (
     <>
       <Brand count={gptsCount} />
-      <ProductHunt />
+      {/* <ProductHunt /> */}
       <Search setGpts={setGpts} setLoading={setLoading} />
       <GptsList gpts={gpts} loading={loading} />
     </>

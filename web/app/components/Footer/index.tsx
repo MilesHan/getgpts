@@ -7,13 +7,13 @@ export default () => {
         <div className="flex flex-row justify-between max-[767px]:flex-col max-[767px]:items-start">
           <div className="max-[767px]: w-full max-w-[560px] max-[991px]:mr-4 max-[991px]:flex-initial">
             <h2 className="text-3xl font-bold md:text-5xl">
-              Find fantastic GPTs all over the world.
+              Search Useful GPTs You Want.
             </h2>
           </div>
           <div className="max-[767px]: max-[991px]:ml-4 max-[991px]:flex-none max-[767px]:mt-8">
             <div className="mb-4 flex max-w-[272px] items-start justify-start">
               <p className="text-[#636262] max-[479px]:text-sm">
-                Contact me email to
+                Contact Us
               </p>
             </div>
             <div className="mb-4 flex max-w-[272px] items-start justify-start">
@@ -22,7 +22,10 @@ export default () => {
                 alt="image"
                 className="mr-3 inline-block"
               />
-              <p className="text-[#636262] max-[479px]:text-sm">me@idoubi.cc</p>
+              <p className="text-[#636262] max-[479px]:text-sm">
+              <a href="mailto:captain@getgpts.xyz">captain@getgpts.xyz</a>
+              </p>
+              
             </div>
           </div>
         </div>
@@ -32,11 +35,15 @@ export default () => {
             Credit to
             <a
               href="https://www.gptshunter.com/"
-              className="inline-block mx-2 py-1.5 pr-6 font-normal text-[#276EF1] transition hover:text-[#276EF1] sm:py-2 sm:pr-6 lg:pr-12"
+              className="inline-block mx-2 py-1.5  font-normal text-[#276EF1] transition hover:text-[#276EF1] sm:py-2 "
               target="_blank"
-            >
-              GPTsHunter
-            </a>
+            >GPTsHunter</a>
+            <span>|</span>
+            <a
+              href="https://gpts.works"
+              className="inline-block mx-2 py-1.5  font-normal text-[#276EF1] transition hover:text-[#276EF1] sm:py-2 "
+              target="_blank"
+            >GPTs.works</a>
           </div>
           <div className="max-[991px]:flex-none">
             <p className="text-[#636262] max-[479px]:text-sm">

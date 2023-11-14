@@ -30,7 +30,7 @@
   },
   "manifest": {
     "host_permissions": [
-      "https://gpts.works/*"
+      "https://getgpts.xyz/*"
     ],
     "permissions": []
   }
