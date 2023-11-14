@@ -1,3 +1,6 @@
+# GetGPTs
+Forked from GPTs.Works
+
 # GPTs Works
 
 GPTs Works is a Third-party GPTs store.
@@ -10,7 +13,7 @@ This project consists of the following three parts👇
 
 code located in the `web` directory.
 
-you can view a live demo at: [https://gpts.works](https://gpts.works)
+you can view a live demo at: [https://getgpts.xyz](https://getgpts.xyz)
 
 ![Website](https://ph-files.imgix.net/45d5eb41-849f-415b-91da-079b6e32946e.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&fit=max&dpr=2)
 
