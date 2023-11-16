@@ -1,5 +1,8 @@
 # GetGPTs
-Forked from GPTs.Works
+A collection of useful GPTs
+Demo Url: [https://getgpts.xyz](https://getgpts.xyz)
+
+This project is forked from [GPTs.Works](https://gpts.works/)
 
 # GPTs Works
 
