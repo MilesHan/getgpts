@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import Brand from "./components/Brand";
 import { Gpts } from "./types/gpts";
 import GptsList from "./components/GptsList";
+import CardList from "./components/CardList";
 import ProductHunt from "./components/ProductHunt";
 import Search from "./components/Search";
 
@@ -47,6 +48,7 @@ export default () => {
       <Brand count={gptsCount} />
       {/* <ProductHunt /> */}
       <Search setGpts={setGpts} setLoading={setLoading} />
+      {/* <CardList gpts={gpts} loading={loading} /> */}
       <GptsList gpts={gpts} loading={loading} />
     </>
   );

@@ -9,8 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.0.18",
     "@vercel/postgres": "^0.5.1",
     "@zilliz/milvus2-sdk-node": "^2.3.3",
+    "headlessui": "^0.0.0",
+    "heroicons": "^2.0.18",
     "langchain": "^0.0.186",
     "next": "14.0.0",
     "react": "^18",
