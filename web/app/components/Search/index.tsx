@@ -70,7 +70,7 @@ export default ({ setGpts, setLoading }: Props) => {
           <input
             type="text"
             className="flex-1 px-4 py-3 border-2 border-[#2752f4] bg-white rounded-lg"
-            placeholder="Search GPTs"
+            placeholder="Search GPTs for more data"
             ref={inputRef}
             value={content}
             disabled={inputDisabled}
