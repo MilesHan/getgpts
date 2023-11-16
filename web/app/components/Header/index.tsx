@@ -8,12 +8,19 @@ import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
-const navigation = [
-  // { name: "GetGPTs", href: "#" },
-  // { name: "Submit", href: "#" },
-  // { name: "Substribe", href: "#" },
-  // { name: "About", href: "#" },
-];
+interface NavigationItem {
+  name: string;
+  href: string;
+}
+
+const navigation: NavigationItem[] = [];
+
+// const navigation = [
+//   // { name: "GetGPTs", href: "#" },
+//   // { name: "Submit", href: "#" },
+//   // { name: "Substribe", href: "#" },
+//   // { name: "About", href: "#" },
+// ];
 
 export default () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

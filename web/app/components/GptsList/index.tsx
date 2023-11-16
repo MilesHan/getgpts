@@ -2,7 +2,6 @@
 
 import { Gpts } from "@/app/types/gpts";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import CardList from "../CardList";
 import Link from "next/link";
 
 interface Props {
